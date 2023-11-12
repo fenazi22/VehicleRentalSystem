@@ -7,8 +7,6 @@ public class Main {
     public static void main(String[] args) {
         List<Vehicle>  rentedVehicles = new ArrayList<>();
 
-            Vehicle c = new Car(1, "t");
-        c.displayDetails();
         Scanner input = new Scanner(System.in);
         while (true) {
             System.out.println("\t---Vehicle Rental System---\n" +
